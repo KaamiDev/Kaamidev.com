@@ -3,6 +3,8 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #707070;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .shadow {
@@ -28,6 +30,7 @@ body {
 
 #start-page {
 	border-radius: 15px;
+	padding: 10px;
 }
 
 .start-heading {
