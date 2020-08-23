@@ -8,7 +8,7 @@ function App() {
 		<div id="main-card" className="shadow">
 			<div id="start-page">
 				<div className="start-heading">
-					<img src={profileImg} className="shadow" />
+					<img src={profileImg} alt="profile pic" className="shadow" />
 					<h1>KaamiDev</h1>
 					<h3>Full Stack Web Developer</h3>
 				</div>
