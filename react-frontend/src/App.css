@@ -160,5 +160,5 @@ body {
 
 .nav-active {
 	color: #00a2ff;
-	font-weight: bold;
+	font-weight: bold !important;
 }

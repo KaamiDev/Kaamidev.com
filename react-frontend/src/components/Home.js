@@ -15,7 +15,7 @@ const Home = () => {
 				</div>
 				<div className="nav-half shadow2">
 					<ul>
-						<li>Home</li>
+						<li className="nav-active">Home</li>
 						<li>Projects</li>
 						<li>Contact</li>
 					</ul>
