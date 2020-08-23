@@ -57,7 +57,7 @@ body {
 
 .nav-full {
 	height: 45px;
-	width: 45%;
+	max-width: 405px;
 	border-radius: 40px;
 	margin: 0 auto;
 	margin-top: 40px;
