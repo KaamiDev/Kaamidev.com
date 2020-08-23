@@ -80,6 +80,11 @@ body {
 	font-weight: 600;
 }
 
+.nav-full ul li:hover {
+	color: #00a2ff;
+	cursor: pointer;
+}
+
 #home-page {
 	padding-left: 40px;
 	padding-top: 40px;
@@ -139,6 +144,11 @@ body {
 	font-weight: 600;
 }
 
+.nav-half ul li:hover {
+	color: #00a2ff;
+	cursor: pointer;
+}
+
 .home-body {
 	padding-left: 80px;
 	padding-right: 60px;
@@ -146,4 +156,9 @@ body {
 
 .home-body p {
 	font-size: 15px;
+}
+
+.nav-active {
+	color: #00a2ff;
+	font-weight: bold;
 }
