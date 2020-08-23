@@ -16,7 +16,7 @@ function App() {
 					<ul>
 						<li>Home</li>
 						<li>Projects</li>
-						<li>Contant</li>
+						<li>Contact</li>
 					</ul>
 				</div>
 			</div>
