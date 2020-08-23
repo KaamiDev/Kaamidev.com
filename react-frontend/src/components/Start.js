@@ -1,5 +1,7 @@
 import React from 'react';
 
+import profileImg from '../profile.jpg';
+
 const Start = () => {
 	return (
 		<div id="start-page">
