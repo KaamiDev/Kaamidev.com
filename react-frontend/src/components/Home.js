@@ -6,9 +6,13 @@ const Home = () => {
 	return (
 		<div id="home-page">
 			<div className="home-heading">
-				<img src={profileImg} alt="profile pic" className="shadow" />
-				<h1>KaamiDev</h1>
-				<h3>Full Stack Web Developer</h3>
+				<div className="home-heading-logo">
+					<img src={profileImg} alt="profile pic" className="shadow" />
+					<div className="home-heading-text">
+						<h3>KaamiDev</h3>
+						<h6>Full Stack Web Developer</h6>
+					</div>
+				</div>
 				<div className="nav-half shadow2">
 					<ul>
 						<li>Home</li>
