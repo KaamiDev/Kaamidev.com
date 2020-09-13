@@ -6,15 +6,22 @@ import './App.css';
 import Start from './components/Start.js';
 import Home from './components/Home.js';
 
+import Footer from './components/Footer.js';
+
 function App() {
 	return (
-		<div id="main-card" className="shadow">
-			<Router>
-				<Switch>
-					<Route path="/" exact component={Start} />
-					<Route path="/home" exact component={Home} />
-				</Switch>
-			</Router>
+		<div>
+			<div id="main-card" className="shadow">
+				<Router>
+					<Switch>
+						<Route path="/" exact component={Start} />
+						<Route path="/home" exact component={Home} />
+					</Switch>
+				</Router>
+			</div>
+			<div id="footer">
+				<Footer />
+			</div>
 		</div>
 	);
 }
