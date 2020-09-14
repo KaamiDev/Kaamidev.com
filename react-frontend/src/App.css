@@ -169,3 +169,7 @@ body {
 #footer {
 	text-align: center;
 }
+
+#footer a {
+	color: #707070;
+}
