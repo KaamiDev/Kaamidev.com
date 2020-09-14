@@ -11,13 +11,15 @@ import Footer from './components/Footer.js';
 function App() {
 	return (
 		<div>
-			<div id="main-card" className="shadow">
-				<Router>
-					<Switch>
-						<Route path="/" exact component={Start} />
-						<Route path="/home" exact component={Home} />
-					</Switch>
-				</Router>
+			<div id="content">
+				<div id="main-card" className="shadow">
+					<Router>
+						<Switch>
+							<Route path="/" exact component={Start} />
+							<Route path="/home" exact component={Home} />
+						</Switch>
+					</Router>
+				</div>
 			</div>
 			<div id="footer">
 				<Footer />
